@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: royalblue;
+    background-color: aquamarine;
 }
 .nav-bar{
     display: flex;
@@ -33,13 +33,31 @@ main{
 
 
 .container{
-    background-color: red;
     width: 500px;
     height: 500px;
-    margin: auto;    
+    margin: auto;   
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 footer{
     padding: 10px;
     height: 10vh;
+}
+
+
+
+.square {
+ /* width: calc(100% / 10);
+ height: calc(100% / 10); */
+ border: 2px solid white;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+
+.clicked {
+ background-color: cyan;
 }
